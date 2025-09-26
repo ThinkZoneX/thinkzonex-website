@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive PDF Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    p {
+      font-size: 16px;
+      color: #555;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive PDF Worksheet</h1>
+    <p>Please use the embedded viewer below. All hyperlinks and table of contents should work inside this frame.</p>
+    <iframe src="https://drive.google.com/file/d/1gdekfG86ZXaalsOEh4yJZLa9-1gkgRSv/preview"></iframe>
+  </div>
+</body>
+</html>
